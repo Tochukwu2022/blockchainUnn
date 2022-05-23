@@ -1,0 +1,144 @@
+html {
+    background-color: #869960;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%; 
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 70%;
+    height:auto;
+}
+
+/*banner overlay */
+
+.image-banner img {
+    display:block
+}
+
+.image-banner {
+    position:relative;
+    left: 60px;
+}
+
+.banner-description {
+    position:absolute;
+    bottom: 0;
+    left: 120px;
+    padding: 5px;
+    color:#33763c;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*end banner overlay */
+
+.container {
+    max-width: 940px;
+    margin:0 auto;
+}
+
+header {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #617140;
+}
+
+header h1 {
+    margin:0;
+    font-size:165%;
+}
+
+header p {
+    margin:0;
+}
+ 
+/* Site Navigation */
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: #e5e9dc;
+}
+
+/* End Site Navigation */
+
+.content-area {
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+    background-color: #fff;
+}
+
+.main-area {
+    width: 66%;
+    float:left;
+    padding-right:25px;
+    box-sizing:border-box
+}
+
+aside {
+    width:34%;
+    float:left;
+    background-color: #e5e9dc;
+    padding: 20px 40px;
+    box-sizing:border-box
+}
+
+footer{
+    text-align:center;
+    font-size: 85%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color:#caed84;
+}
+
+.partner {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.partnerships {
+    color:#617140;
+}
+
+.fix {
+    clear: both;
+}
+
+.group:before,
+.group:after {
+    content:"";
+    display: table;
+}
+
+.group:after{
+    clear: both; 
+}
+
+.group {
+    zoom: 1;
+}
